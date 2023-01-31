@@ -6,7 +6,7 @@ function ItemListContainer ({Drummer}) {
         <div className='ItemListContainer'>
             {Drummer}
         </div>
-        <>
+        </>
     )
 }
 

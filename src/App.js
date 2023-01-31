@@ -8,6 +8,7 @@ function App() {
     <>
     <NavBar/>
     <ItemListContainer Drummer={"Drummer"}/> 
+    </>
   );
 }
 
