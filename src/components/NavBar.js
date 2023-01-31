@@ -3,6 +3,7 @@ import logo from '../..src/logo.png'
 import CartWidget from './cartWidget'
 function NavBar(props) {
     return (
+      <>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
   <div class="container-fluid">
@@ -31,5 +32,6 @@ function NavBar(props) {
     </div>
   </div>
 </nav>
+    </>
     )
 }
