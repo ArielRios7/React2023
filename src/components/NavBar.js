@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from '../..src/logo.png'
-import CartWidget from './cartWidget'
+
+// import CartWidget from './cartWidget'
+
 function NavBar(props) {
     return (
       <>
