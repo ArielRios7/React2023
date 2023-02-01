@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../..src/logo.png'
+import CartWidget from './CartWidget'
 
 function NavBar(props) {
     return (
@@ -29,7 +30,7 @@ function NavBar(props) {
     </div>
   </div>
   <div>
-  <NavBar/>
+  <CartWidget/>
   </div>
 </nav>
     </>

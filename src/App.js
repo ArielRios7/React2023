@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from './components/NavBar.jsx';
+import NavBar from './components/NavBar';
 import './App.css';
 import ItemListContainer from './components/ItemListContainer'
 
@@ -9,7 +9,7 @@ function App() {
     <NavBar/>
     <ItemListContainer Drummer={"Drummer"}/> 
     </>
-  );
+  )
 }
 
 export default App;
