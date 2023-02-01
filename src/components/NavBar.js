@@ -7,7 +7,7 @@ function NavBar(props) {
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
   <div class="container-fluid">
-      <img src="../..src/logo.png" alt="Logo" width="30" height="24">
+      <img src="../..src/logo.png" alt="Logo" width="30" height="24"/>
   </div>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <a class="navbar-brand" href="#">Hidden brand</a>
@@ -23,12 +23,17 @@ function NavBar(props) {
         </li>
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
+  </div>
+  <div>
+  <NavBar/>
   </div>
 </nav>
     </>
     )
 }
+
+export default NavBar
