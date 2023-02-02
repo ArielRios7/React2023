@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../..src/logo.png'
 import CartWidget from './CartWidget'
 
 function NavBar(props) {
@@ -8,24 +7,23 @@ function NavBar(props) {
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
   <div class="container-fluid">
-      <img src="../..src/logo.png" alt="Logo" width="30" height="24"/>
+      <img src="../../logo.png" alt="Logo" width="30" height="24"/>
   </div>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#">Hidden brand</a>
+      <a class="navbar-brand" href="#">Home</a>
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">Cursos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link active" aria-current="page" href="#">Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+          <a class="nav-link active" aria-current="page" href="#">Contacto</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
       </form>
     </div>
   </div>

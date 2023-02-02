@@ -4,7 +4,7 @@ function CartWidget () {
     return(
         <>
         <div className="cartContainer">
-        <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
+        <img src="../../cart.svg" alt="Logo" width="30" height="24"/>
         <span className="cartCount">2</span>
         </div>
         </>
